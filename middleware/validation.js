@@ -49,7 +49,7 @@ function verify_request(req, res, next) {
       status: 303,
       message: 'Unauthorized.',
       headers: {
-        'Location': '/login'
+        'Location': '/sign-in'
       }
     })
   }

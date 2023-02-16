@@ -4,7 +4,7 @@ module.exports = (req, res, next) => {
     status: 303,
     message: 'User loged out.',
     headers: {
-      'Location': '/login'
+      'Location': '/sign-in'
     }
   })
 }

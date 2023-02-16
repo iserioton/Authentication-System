@@ -3,7 +3,7 @@ function create_user(req, res, next) {
     status: 303,
     message: 'User created.',
     headers: {
-      'Location': '/login'
+      'Location': '/sign-in'
     }
   })
 }
